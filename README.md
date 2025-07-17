@@ -39,15 +39,12 @@ Track your thoughts, mood, affirmations, daily tasks, and productivity — all i
 ---
 
 
----
-
 ## 🚀 Getting Started
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/your-username/daily-mind-task-tracker.git
    cd daily-mind-task-tracker
----
 
 ---
 
