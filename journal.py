@@ -8,10 +8,12 @@ import os
 # random affirmations
 affirmations = [
             "You’re improving every day.",
+            "you're a good person"
             "Consistency beats perfection.",
             "Small steps = big results.",
             "Your work matters.",
-            "Stay consistent."
+            "Stay consistent.",
+            "stay positive"
         ]
 
 # journal class
@@ -25,7 +27,7 @@ class journalEntry:
     def add_journal_entry(self):
         with open("data/journal_entries.txt", "a") as file:
             file.write(f" Date: {self.time}\nMood: {self.mood}\nEntry: {self.entry_text}\nAffirmation: {self.line}\n")
-            file.write("----------------------------------------------\n")
+            file.write("-----------------------------------------------\n")
 
 
 # task class
@@ -35,6 +37,7 @@ class Task:
         self.T_deadline = T_deadline
         self.T_priority = T_priority
         self.status = "pending"
+
 
     def save_to_csv(self):
         os.makedirs("data", exist_ok=True)  # Ensure folder exists
@@ -212,7 +215,7 @@ def menu():
             print("Exiting... Have a great day!")
             break
         else:
-            print("Invalid choice. Please enter 1-6.")
+            print("Invalid choice. Please enter (1-6).")
 
 # main function calling
 if __name__ == '__main__':
