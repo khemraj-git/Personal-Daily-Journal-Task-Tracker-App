@@ -3,3 +3,8 @@ Mood: productive
 Entry: i completed my python language and i even created projects to practice it
 Affirmation: Consistency beats perfection.
 ----------------------------------------------
+ Date: 17-07-25 11:53 AM
+Mood: good
+Entry: i learn python today
+Affirmation: You’re improving every day.
+----------------------------------------------
